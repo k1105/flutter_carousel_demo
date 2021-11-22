@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:widget_test_1116/carousel_widget/carousel_with_numbered_indicator.dart';
-import 'package:widget_test_1116/carousel_widget/carousel_with_indicator.dart';
+import 'package:widget_test_1116/carousel_widget/carousel.dart';
 
 
 void main() {
@@ -32,7 +31,7 @@ class MyHomePage extends StatelessWidget {
         child: Center(child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const NumberedCarouselSliderWidget(['foo', 'bar', 'baz']),
+              const CarouselSliderWidget(['foo', 'bar', 'baz', 'hoge']),
               const CarouselSliderWidget(['Nakamura', 'Hata', 'Yamagishi']),
             ]),
         ),
