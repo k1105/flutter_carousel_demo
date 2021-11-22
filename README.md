@@ -1,6 +1,5 @@
-# widget_test_1116
+# flutter_carousel_demo
 
-A new Flutter project.
 
 ## Getting Started
 
