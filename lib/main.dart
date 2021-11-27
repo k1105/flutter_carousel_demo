@@ -31,8 +31,8 @@ class MyHomePage extends StatelessWidget {
         child: Center(child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const CarouselSliderWidget(['foo', 'bar', 'baz', 'hoge']),
-              const CarouselSliderWidget(['Nakamura', 'Hata', 'Yamagishi']),
+              CarouselSliderWidget(['images/sample.png', 'images/sample.png', 'images/sample.png'], 'image'),
+              CarouselSliderWidget(['hoge', 'hogehoge'], 'text'),
             ]),
         ),
       ),
